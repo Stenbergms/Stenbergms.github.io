@@ -1,4 +1,4 @@
-*{
+{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -10,32 +10,33 @@ body {
 .section1 {
     width: 33%;
     height: 100vh;
-    background-color: rgb(75, 75, 241);
+    background-color: #003147;
     color: white;
-
+    text-align: center;
 }
 .section1 > .profile {
     height: 33vh;
     width: 100%;
     padding: 16px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(123, 121, 121);
   }
   .section1 > .contact {
     height: 33vh;
     width: 100%;
     padding: 16px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(123, 121, 121);
   }
   .section1 > .education {
     height: 33vh;
     width: 100%;
     padding: 16px;
   }
+
 .section2 {
     width: 67%;
     height: 100vh;
-    
-    
+    background-color: aliceblue;
+    color: #003147;
 }
 main {
     height: 100vh;
@@ -45,9 +46,47 @@ main {
     height: 50vh;
     width: 100%;
     padding: 16px;
+    border-bottom: 1px solid rgb(123, 121, 121);
 }
 .section2 > .bio {
     height: 50vh;
     width: 100%;
     padding: 16px;
+}
+.section2 > .experience h2 {
+    display: grid;
+    text-align: center;
+    font-style: italic;
+}
+
+.section2 > .experience p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+.section2 > .experience > .work div {
+    text-align: right;
+}
+.section2 > .experience > .work-2 div {
+    text-align: right;
+}
+.section2 > .experience > .work-2 p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+.section1 > .profile img {
+   height: 200px;
+   width: 200px;
+   border-radius: 50%;
+}
+.section2 > .bio h2 {
+    text-align: center;
+    font-style: italic;
+}
+.section2 > .bio p {
+    column-count: 2;
+    column-width: 100px;
+    column-rule: 1px solid rgb(123, 121, 121);
+    font-size: larger;
 }
